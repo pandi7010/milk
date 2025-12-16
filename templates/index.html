@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Milk Packet Counter</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<h1>Milk Packet Counter - KMF Nandhini</h1>
+
+<h2>Image Upload</h2>
+<form action="/image" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" required>
+    <button type="submit">Count</button>
+</form>
+
+<h2>Live Camera</h2>
+<img src="/video_feed" width="640"/>
+
+</body>
+</html>
